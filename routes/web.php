@@ -37,3 +37,7 @@ Route::get("/tescontroller", "TesController@Show");
 
 // Resource 
 Route::resource('siswa', "SiswaController");
+
+
+//route CRUD
+Route::get('/pegawai','PegawaiController@index');
